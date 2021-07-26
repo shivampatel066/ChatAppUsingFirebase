@@ -9,12 +9,23 @@
 /* Begin PBXBuildFile section */
 		40650D6226AF388500E531F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40650D6126AF388500E531F9 /* AppDelegate.swift */; };
 		40650D6426AF388500E531F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40650D6326AF388500E531F9 /* SceneDelegate.swift */; };
-		40650D6626AF388500E531F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40650D6526AF388500E531F9 /* ViewController.swift */; };
 		40650D6926AF388500E531F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40650D6726AF388500E531F9 /* Main.storyboard */; };
 		40650D6B26AF388D00E531F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40650D6A26AF388D00E531F9 /* Assets.xcassets */; };
 		40650D6E26AF388D00E531F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40650D6C26AF388D00E531F9 /* LaunchScreen.storyboard */; };
 		40650D7926AF388E00E531F9 /* ChatAppUsingFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40650D7826AF388E00E531F9 /* ChatAppUsingFirebaseTests.swift */; };
 		40650D8426AF388E00E531F9 /* ChatAppUsingFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40650D8326AF388E00E531F9 /* ChatAppUsingFirebaseUITests.swift */; };
+		40650D9926AF3CAD00E531F9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40650D9526AF3CAC00E531F9 /* WelcomeViewController.swift */; };
+		40650D9A26AF3CAD00E531F9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40650D9526AF3CAC00E531F9 /* WelcomeViewController.swift */; };
+		40650D9B26AF3CAD00E531F9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40650D9526AF3CAC00E531F9 /* WelcomeViewController.swift */; };
+		40650D9C26AF3CAD00E531F9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40650D9626AF3CAC00E531F9 /* RegisterViewController.swift */; };
+		40650D9D26AF3CAD00E531F9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40650D9626AF3CAC00E531F9 /* RegisterViewController.swift */; };
+		40650D9E26AF3CAD00E531F9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40650D9626AF3CAC00E531F9 /* RegisterViewController.swift */; };
+		40650D9F26AF3CAD00E531F9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40650D9726AF3CAC00E531F9 /* LoginViewController.swift */; };
+		40650DA026AF3CAD00E531F9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40650D9726AF3CAC00E531F9 /* LoginViewController.swift */; };
+		40650DA126AF3CAD00E531F9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40650D9726AF3CAC00E531F9 /* LoginViewController.swift */; };
+		40650DA226AF3CAD00E531F9 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40650D9826AF3CAD00E531F9 /* ChatViewController.swift */; };
+		40650DA326AF3CAD00E531F9 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40650D9826AF3CAD00E531F9 /* ChatViewController.swift */; };
+		40650DA426AF3CAD00E531F9 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40650D9826AF3CAD00E531F9 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +49,6 @@
 		40650D5E26AF388400E531F9 /* ChatAppUsingFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAppUsingFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40650D6126AF388500E531F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40650D6326AF388500E531F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40650D6526AF388500E531F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40650D6826AF388500E531F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40650D6A26AF388D00E531F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40650D6D26AF388D00E531F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +59,10 @@
 		40650D7F26AF388E00E531F9 /* ChatAppUsingFirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAppUsingFirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40650D8326AF388E00E531F9 /* ChatAppUsingFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppUsingFirebaseUITests.swift; sourceTree = "<group>"; };
 		40650D8526AF388E00E531F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40650D9526AF3CAC00E531F9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		40650D9626AF3CAC00E531F9 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		40650D9726AF3CAC00E531F9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		40650D9826AF3CAD00E531F9 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +113,11 @@
 		40650D6026AF388400E531F9 /* ChatAppUsingFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				40650D9426AF3ACC00E531F9 /* Views */,
+				40650D9326AF3ABE00E531F9 /* ViewControllers */,
+				40650D9126AF3A9800E531F9 /* Models */,
 				40650D6126AF388500E531F9 /* AppDelegate.swift */,
 				40650D6326AF388500E531F9 /* SceneDelegate.swift */,
-				40650D6526AF388500E531F9 /* ViewController.swift */,
-				40650D6726AF388500E531F9 /* Main.storyboard */,
 				40650D6A26AF388D00E531F9 /* Assets.xcassets */,
 				40650D6C26AF388D00E531F9 /* LaunchScreen.storyboard */,
 				40650D6F26AF388D00E531F9 /* Info.plist */,
@@ -126,6 +141,32 @@
 				40650D8526AF388E00E531F9 /* Info.plist */,
 			);
 			path = ChatAppUsingFirebaseUITests;
+			sourceTree = "<group>";
+		};
+		40650D9126AF3A9800E531F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		40650D9326AF3ABE00E531F9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				40650D9826AF3CAD00E531F9 /* ChatViewController.swift */,
+				40650D9726AF3CAC00E531F9 /* LoginViewController.swift */,
+				40650D9626AF3CAC00E531F9 /* RegisterViewController.swift */,
+				40650D9526AF3CAC00E531F9 /* WelcomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		40650D9426AF3ACC00E531F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40650D6726AF388500E531F9 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +299,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40650D6626AF388500E531F9 /* ViewController.swift in Sources */,
+				40650D9F26AF3CAD00E531F9 /* LoginViewController.swift in Sources */,
+				40650D9C26AF3CAD00E531F9 /* RegisterViewController.swift in Sources */,
+				40650DA226AF3CAD00E531F9 /* ChatViewController.swift in Sources */,
+				40650D9926AF3CAD00E531F9 /* WelcomeViewController.swift in Sources */,
 				40650D6226AF388500E531F9 /* AppDelegate.swift in Sources */,
 				40650D6426AF388500E531F9 /* SceneDelegate.swift in Sources */,
 			);
@@ -268,7 +312,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40650DA026AF3CAD00E531F9 /* LoginViewController.swift in Sources */,
+				40650D9D26AF3CAD00E531F9 /* RegisterViewController.swift in Sources */,
 				40650D7926AF388E00E531F9 /* ChatAppUsingFirebaseTests.swift in Sources */,
+				40650DA326AF3CAD00E531F9 /* ChatViewController.swift in Sources */,
+				40650D9A26AF3CAD00E531F9 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +324,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40650DA126AF3CAD00E531F9 /* LoginViewController.swift in Sources */,
+				40650D9E26AF3CAD00E531F9 /* RegisterViewController.swift in Sources */,
 				40650D8426AF388E00E531F9 /* ChatAppUsingFirebaseUITests.swift in Sources */,
+				40650DA426AF3CAD00E531F9 /* ChatViewController.swift in Sources */,
+				40650D9B26AF3CAD00E531F9 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
