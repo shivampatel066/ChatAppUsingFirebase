@@ -1,5 +1,5 @@
 # ChatAppUsingFirebase
-Chat App Using Firebase Cloud Firestone
+Chat App Using Firebase Cloud Firestore
 
 Chat App is an internet based messaging app similar to WhatsApp, 
 the popular messaging app that was bought by Facebook for $22 billion.
